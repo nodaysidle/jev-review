@@ -16,8 +16,8 @@ export const MAX_FOLLOW_UPS = 8;
 export const MAX_PROFILES = 5;
 export const CONCURRENCY = 3;
 
-export const SOURCE_FILE = /\.(?:[cm]?[jt]sx?)$/;
-export const TEST_FILE = /(?:^|\/)(?:tests?|__tests__)(?:\/|$)|\.(?:spec|test)\.[cm]?[jt]sx?$/;
+export const SOURCE_FILE = /\.(?:[cm]?[jt]sx?|swift)$/;
+export const TEST_FILE = /(?:^|\/)(?:tests?|__tests__)(?:\/|$)|\.(?:spec|test)\.[cm]?[jt]sx?$|Tests\.swift$/;
 
 export const dimensions = {
   correctness: "The code likely contains incorrect runtime behavior.",

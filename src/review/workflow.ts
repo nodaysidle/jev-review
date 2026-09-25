@@ -41,7 +41,7 @@ export async function runReview<File extends { path: string }, Context extends {
 ): Promise<ReviewReport> {
   const { files, contextFiles } = strategy.discover(scope);
   if (files.length === 0) {
-    throw new Error("No " + strategy.subject + " JavaScript or TypeScript files found under " + scope);
+    throw new Error("No " + strategy.subject + " source files found under " + scope);
   }
 
   log("Screening " + files.length + " " + strategy.subject + " files with " + contextFiles.length + " " + strategy.context + " files as context...");
