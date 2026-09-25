@@ -4,7 +4,7 @@
   "description": "A small staged code-review workflow built with TypeSafe Jev.",
   "private": true,
   "license": "MIT",
-  "repository": "github:devagrawal09/jev-review",
+  "repository": "github:nodaysidle/jev-review",
   "engines": {
     "node": ">=24"
   },
